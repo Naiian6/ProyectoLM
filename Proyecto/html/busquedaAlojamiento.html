@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/estilosBAloj.css" rel="stylesheet" media="all" type="text/css">
+        <title>TravelDipia</title>
+    </head>
+    <body>
+        <main>
+            <header>
+               <img src="../recursos/listadoAlojamientos/tdipiaA1.png" alt="ERROR" class="imgLogo">
+            </header>
+                <div class="nav">
+                    <label><a href="../html/index.html"><input type="button" class="buttonNav" value="Inicio"></a></label>
+                    <label><a href="../html/vuelosTop.html"><input type="button" class="buttonNav" value="Vuelos Top"></a></label>
+                    <label><a href="../html/listadoActividades.html"><input type="button" class="buttonNav" value="Actividades"></a></label>
+                    <label><a href="../html/listadoAlojamientos.html"><input type="button" class="buttonNav" value="Alojamientos"></a></label>
+                    <label><a href="../html/busquedaVuelos.html"><input type="button" class="buttonNav" value="¡Encuentra Vuelos!"></a></label>
+                </div>
+                <div class="contenido">
+                  <div class="subContenidoFlex">
+                    <form>
+                        
+                      <fieldset>
+                              <legend>Busqueda de Hoteles</legend>
+                              <label class="Label">Ubicación:</label>
+                              <select name="select">
+                                <option value="value1">Madrid</option>
+                                <option value="value2">Cuenca</option>
+                                <option value="value3">Valencia</option>
+                                <option value="value3">Granada</option>
+                              </select>
+                              <div>
+                              <label class="Label">Numero de personas:</label>
+                              <input type="number" min="1" max="5" class="numero">
+                            </div>
+                            <div>
+                              <label class="Label">Fecha de entrada:</label>
+                              <input type="date" class="date-1">
+                            </div>
+                              <div>
+                                <label class="Label">Fecha de salida:</label>
+                                <input type="date" class="date-2">
+                              <input type="submit" value="Buscar" class="B">
+                              <input type="reset" value="Cancelar" class="C">
+                              <label>Hotel</label>
+                                <input type= "radio" id = "seleccion">
+                              <label>Apartamento</label>
+                                <input type= "radio" id = "seleccion">
+                              <label>ApartaHotel</label>
+                                <input type= "radio" id = "seleccion">
+                              <label>Casa</label>
+                                <input type= "radio" id = "seleccion">
+
+                    </form> 
+                  </div>
+                  <div class="subContenidoFlex">
+                    </fieldset>
+                    <form>
+                      <legend>Opciones de Busqueda</legend>
+                      <label class="habitaciones">Numero Habitaciones</label>
+                              <select name="select">
+                                <option value="value1">Estudio(1-2 personas)</option>
+                                <option value="value2">2 Habitaciones</option>
+                                <option value="value3">3 Habitaciones</option>
+                                <option value="value3">4 Habitaciones</option>
+                              </select>
+                      <label class="pension">Pension:</label>
+                              <select name="select">
+                                <option value="value1">Desayunos</option>
+                                <option value="value2">Media Pension</option>
+                                <option value="value3">Pension Completa</option>
+                                <option value="value3">Ninguno</option>
+                              </select>
+                      <label class="estrellas">Numero de estrellas:</label>
+                              <select name="select">
+                                <option value="value1">Menos de 3 Estrellas</option>
+                                <option value="value2">3 Estrellas</option>
+                                <option value="value3">4 Estrellas</option>
+                                <option value="value3">5 Estrellas</option>
+                              </select>
+                      <label>Cancelacion Gratuita</label>
+                              <input type= "radio" id = "Opciones">
+                      <label>Parking privado</label>
+                              <input type= "radio" id = "Opciones">
+                      <label>Acceso Piscina</label>
+                              <input type= "radio" id = "Opciones">
+                      <label>Permite Animales</label>
+                              <input type= "radio" id = "Opciones">
+                      <label>Buscar</label>
+                              <input type="submit" id = "Busqueda">
+                    </form>
+                  </div>
+              </div>     
+            <footer>
+                <a>|© TravelDipia |</a>
+            </footer>
+        </main>
+    </body>
+</html>

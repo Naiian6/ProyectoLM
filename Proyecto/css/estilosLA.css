@@ -1,0 +1,375 @@
+:root
+{
+    --cabecera: #083b57;
+    --fondo: #56BAF0;
+    --nav: #1392D6;
+    --grisOscuro: #3a5462;
+    --quintoColor: #0F6FA3;
+}
+body{
+    background: -webkit-linear-gradient(beige, rgb(197, 197, 155));
+    padding: 20px;
+}
+main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 20px;
+    background: rgb(24, 24, 24);
+}
+header {
+    width: auto;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 4px solid black;
+    background: #366cd9;
+}
+footer {
+    width: auto;
+    height: 20px;
+    text-align: right;
+    border-radius: 20px;
+    border-top: 4px solid black;
+    background-color: #366cd9;
+}
+h1 {
+    font-size: 70px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+div {
+    border-radius: 20px;
+}
+.nav {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    border-bottom: 4px solid black;
+    border-top: 0px;
+    margin: 0 auto;
+    background: #366cd9;
+}
+.contenido {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #56BAF0;
+}
+.subContenido {
+    width: 95%;
+    height: auto;
+    background-color: #71cbfc;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+.subContenidoFlex {
+    width: 95%;
+    height: auto;
+    /*display: flex;
+    flex-direction: row;
+    align-items: center;*/
+    background-color: #71cbfc;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+.imgF {
+    width: 200px;
+    height: 250px;
+    margin: 6px
+}
+.content {
+    width: 100%;
+    height: 100%;
+}
+.imgLogo {
+    width: 200px;
+    height: 95%;
+    margin-top: 5px;
+    
+}
+form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formulario
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:consolas;
+    font-weight: bold;
+    
+}
+.formulario2
+{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+hr
+{
+    margin: 5px auto;
+    width: 80%;
+    color: #c7c9cabe;
+    border-radius: 10px;
+}
+.estiloform
+{
+    padding: 10px;
+    margin: 5px;
+}
+button
+{
+    padding: 7px;
+    border: 0.5px solid var(--cabecera);
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgb(0, 0, 0);
+    background-color: #ccedff;
+    font-family: comic Sans MS;
+    font-size: 14px;
+    transition: 0.5s;
+}
+fieldset
+{
+    background-color: rgb(238, 243, 255);
+    margin: 20px;
+    border: 2px solid var(--grisOscuro);
+    border-radius: 3px;
+    transition: 0.7s;
+}
+fieldset > h3
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+select
+{
+   padding: 5px;
+   font-family: bahnschrift;
+   font-weight: bold;
+   font-size: 14px;
+   background-color: var(--grisOscuro);
+   color: white;
+   border: 1px solid var(--cabecera);
+   border-radius: 3px;
+   box-shadow: 1px 0px 1px rgb(0, 0, 0);
+}
+.orden
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orden img
+{
+    /*min-height: 20vh;
+    max-width: 20vw;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destinosTOP
+{
+    min-height: 30vh;
+    width: 20rem;
+    border: 1px solid var(--grisOscuro);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    display: table;
+    transition: 0.5s;
+}
+.destinosTOP > p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.destinosTOP a > img
+{
+    height: 30vh;
+    width: 20rem;
+    padding: 10px;
+    overflow:hidden;
+    transition: 0.5s;
+}
+.tituloDestinosTOP
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.tituloDestinosTOP h3
+{
+    font-family: Lucida console;
+    color: rgb(0, 0, 0);
+    border: 1px solid var(--grisOscuro);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    transition: 1s;
+}
+.buttonNav {
+    min-width: 12%;
+    height: 30px;
+    background: #b1e1fa;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 4px;
+    border: 1px solid #71cbfc;
+    box-shadow: 0px 1px 1px rgb(0, 0, 0);
+    transition: 0.4s;
+}
+.buttonNav:hover {
+    cursor: pointer;
+    background: rgb(12, 13, 56);
+    color: rgb(238, 176, 42);
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+button:hover
+{
+    background-color: var(--cabecera);
+    color: white;
+    transition: 0.5s;
+}
+fieldset:hover
+{
+    border: 2px solid var(--cabecera);
+    transition: 0.7s;
+}
+.destinosTOP:hover
+{
+    box-shadow:10px 10px 30px var(--cabecera);
+    transition: 0.5s;
+}
+.destinosTOP:hover img
+{
+    -webkit-transform:scale(1.05);
+    transform:scale(1.05);
+    transition: 0.5s;
+}
+
+.tituloDestinosTOP h3:hover
+{
+    border-radius:45%;
+    -webkit-border-radius:45%;
+    box-shadow: 0px 0px 15px 15px var(--quintoColor);
+    -webkit-box-shadow: 0px 0px 15px 15px var(--quintoColor);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    background-color: rgb(12, 13, 56);
+    color: rgb(235, 166, 18);
+    transition: 1s;
+}
+@media screen and (max-width: 1500px) {
+    .orden{
+        display: grid;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    body{
+        padding: 5px;
+    }
+    main
+    {
+        width: 95%;
+
+    }
+    .orden
+    {
+        display: grid;
+    }
+    .contenido
+    {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 600px)
+{
+    body{
+        background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(13,13, 13));
+        padding: 0px;
+    }
+    main
+    {
+        width: 100%;
+    }
+    .contenido
+    {
+        width: 90%;
+    }
+    .formulario
+    {
+        display: grid;
+    }
+    .estiloform
+    {
+        margin: 0;
+    }
+    .estiloform div
+    {
+        padding: 5px;
+    }
+    
+}
+
+@media screen and (max-width: 500px)
+{
+    body{
+        background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(13,13, 13));
+        padding: 0px;
+    }
+    main
+    {
+        width: 100%;
+    }
+    .contenido
+    {
+        width: 95%;
+    }
+
+    .destinosTOP
+    {
+        width: 19rem;
+    }
+    .destinosTOP a > img
+    {
+        width: 19rem;
+    }
+
+    .formulario
+    {
+        display: grid;
+    }
+    .estiloform
+    {
+        margin: 0;
+    }
+    .estiloform div
+    {
+        padding: 5px;
+    }
+}

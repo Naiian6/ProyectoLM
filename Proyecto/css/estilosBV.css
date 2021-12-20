@@ -1,0 +1,273 @@
+body{
+    background: -webkit-linear-gradient(beige, rgb(197, 197, 155));
+    padding: 20px;
+}
+main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 20px;
+    background: rgb(24, 24, 24);
+}
+header {
+    width: auto;
+    height: 150px;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 4px solid black;
+    background: #366cd9;
+}
+footer {
+    width: auto;
+    height: 20px;
+    text-align: right;
+    border-radius: 20px;
+    border-top: 4px solid black;
+    background-color: #366cd9;
+}
+h1 {
+    font-size: 70px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+div {
+    border-radius: 20px;
+}
+.nav {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    border-bottom: 4px solid black;
+    border-top: 0px;
+    margin: 0 auto;
+    background: #366cd9;
+}
+.contenido {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #56BAF0;
+}
+.subContenido {
+    width: 95%;
+    height: auto;
+    background-color: #71cbfc;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: justify;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.subContenidoFlex {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #71cbfc;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgF {
+    width: 200px;
+    height: 250px;
+    margin: 6px;
+}
+.content {
+    width: 100%;
+    height: 100%;
+}
+.imgLogo {
+    width: 200px;
+    height: 95%;
+    margin-top: 5px;
+}
+.buttonNav {
+    min-width: 12%;
+    height: 30px;
+    background: #b1e1fa;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 4px;
+    border: 1px solid #71cbfc;
+    box-shadow: 0px 1px 1px rgb(0, 0, 0);
+    transition: 0.4s;
+}
+.buttonNav:hover {
+    cursor: pointer;
+    background: rgb(12, 13, 56);
+    color: rgb(238, 176, 42);
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.buttonNav6 {
+    width: 150px;
+    height: 30px;
+    background: #71cbfc;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.buttonNav6:hover{
+    background-color: turquoise;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+#P1 {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 23px;
+}
+#P2 {
+    font-weight: bold;
+}
+input::placeholder {
+    font-style: italic;
+}
+#ida {
+    height: 33px;
+    margin-bottom: 9px;
+    width: 180px;
+}   
+#vuelta {
+    height: 33px;
+    width: 180px;
+}   
+#fecha {
+    height: 35px;
+    width: 180px;
+}
+#clases {
+    height: 39px;
+    width: 180px;
+}
+#clases:hover{
+    cursor: pointer;
+}
+#div5 {
+    margin-top: 10px;
+}
+input[type="text"]{
+    text-align:left;
+}
+input[type="date"]{
+    text-align: center;
+}
+select {
+    text-align: left;
+}
+#pasajeros {
+    height: 38px;
+    width: 150px;         
+}
+#pasajeros:hover{
+    cursor: pointer;
+}
+#hr {
+    margin-top: 20px;
+}
+#divB {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#boton {        
+    background-color: #083B57;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    color: white;   
+    margin-top: 5px;
+    font-weight: bold;     
+    border: none;
+    border-radius: 3px;   
+}
+#boton:hover {
+    cursor: pointer;   
+    background-color: black;
+}
+footer a {
+    margin-right:10px ;
+}
+#imgS {
+    width: 160px;
+    height: 140px; 
+    padding-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    margin-right: 3px;   
+}
+#imgS:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    cursor: pointer;
+}
+#divfotos { 
+    margin-left: 30px;
+}
+.divinicio{
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#diviniciosesion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;   
+}
+#diviniciosesion p { 
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 5px;   
+    font-size: xx-small;
+    font-size: 9px; 
+}
+#imginicio {
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    margin-top: 1px;
+}
+#divimginicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botoniniciosesion {  
+    background-color: #083B57;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5px;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    
+}
+#botoniniciosesion:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
